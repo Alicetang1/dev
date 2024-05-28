@@ -13,12 +13,12 @@ function searchWeather() {
                 displayWeather(data);
             } else {
                 console.error('API data does not contain expected "list" property.');
-                alert('未能获取天气数据，请检查城市名称并重试。');
+                alert('Failed to get weather data, please check the city name and try again.');
             }
         })
         .catch(error => {
             console.error('Error fetching weather data:', error);
-            alert('获取天气数据时出错，请稍后重试。');
+            alert('An error occurred while retrieving weather data, please try again later.');
         });
 }
 
