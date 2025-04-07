@@ -9,4 +9,4 @@ HTML/CSS/JavaScript
 OpenWeatherMap API
 
 Deploy
-The application is deployed to https://aws-weather-app123.s3.amazonaws.com/index.html
+The application is deployed to https://dev-seven-wine.vercel.app
